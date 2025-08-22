@@ -49,7 +49,7 @@ module "vsocket-azure-ha-2nic" {
   # └──────────────────────────────────────────────────────┘
   subnet_range_lan       = "10.113.3.128/25"
   floating_ip            = "10.113.3.137"
-   # ┌───── Optional Availability configuration ─────┐
+  # ┌───── Optional Availability configuration ─────┐
   vsocket_primary_zone   = "1"
   vsocket_secondary_zone = "2"                         # You cannot use Zones and Availability sets
   availability_set_id    = null
